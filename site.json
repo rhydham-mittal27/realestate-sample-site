@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "_note": "SAMPLE content for cold-sales demo. Brand, names, numbers and RERA IDs are fictional placeholders - replace with client data.",
+    "template": "real-estate-developer",
+    "version": "1.0",
+    "language": "en-IN",
+    "currency": "INR"
+  },
+  "brand": {
+    "name": "Aurelia Estates",
+    "tagline": "Homes designed around how you live.",
+    "logo": "/assets/logo.svg",
+    "favicon": "/assets/favicon.png",
+    "established": 2009,
+    "reraCorporateNote": "All projects are registered under RERA. Registration numbers shown on each project page."
+  },
+  "theme": {
+    "style": "editorial-luxury",
+    "colors": {
+      "background": "#FDFCF9",
+      "surface": "#F4F0E8",
+      "text": "#1A1A1A",
+      "muted": "#6B6558",
+      "accent": "#B08D57",
+      "accentDark": "#8B6B3A",
+      "inverse": "#111111"
+    },
+    "fonts": {
+      "heading": {
+        "family": "Poppins",
+        "weights": [
+          500,
+          600
+        ],
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "family": "Roboto",
+        "weights": [
+          400,
+          500,
+          700
+        ],
+        "fallback": "sans-serif"
+      }
+    },
+    "radius": "2px",
+    "motion": "restrained",
+    "imageStyle": "full-bleed, natural light, no heavy filters"
+  },
+  "seo": {
+    "title": "Aurelia Estates | Premium Apartments & Villas in Pune",
+    "description": "RERA-registered premium residences in Pune by Aurelia Estates. Explore floor plans, amenities and book a site visit.",
+    "ogImage": "/assets/og.jpg",
+    "schemaType": "RealEstateAgent"
+  },
+  "navigation": {
+    "primary": [
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Amenities",
+        "href": "#amenities"
+      },
+      {
+        "label": "Floor Plans",
+        "href": "#plans"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "cta": {
+      "label": "Book a Site Visit",
+      "href": "#contact"
+    },
+    "sticky": true
+  },
+  "floatingActions": [
+    {
+      "type": "whatsapp",
+      "label": "Chat on WhatsApp",
+      "href": "https://wa.me/910000000000?text=Hi%2C%20I%27d%20like%20details%20on%20Aurelia%20Heights"
+    },
+    {
+      "type": "call",
+      "label": "Call Us",
+      "href": "tel:+910000000000"
+    }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "Now Launching - Baner, Pune",
+      "headline": "Aurelia Heights",
+      "subheadline": "2 & 3 BHK residences with open skies, quiet courtyards and everything within 10 minutes.",
+      "media": {
+        "type": "video",
+        "src": "/assets/hero.mp4",
+        "poster": "/assets/hero.jpg"
+      },
+      "primaryCta": {
+        "label": "Book a Site Visit",
+        "href": "#contact"
+      },
+      "secondaryCta": {
+        "label": "Download Brochure",
+        "href": "/assets/aurelia-heights-brochure.pdf"
+      },
+      "highlights": [
+        "Starting Rs 1.45 Cr*",
+        "RERA: P52100000000",
+        "Possession Dec 2028"
+      ],
+      "image": "assets/photos/hero-dusk.jpg"
+    },
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years of experience"
+      },
+      {
+        "value": "12",
+        "label": "Projects delivered"
+      },
+      {
+        "value": "4,200+",
+        "label": "Happy families"
+      },
+      {
+        "value": "3.1M",
+        "label": "Sq. ft. developed"
+      }
+    ],
+    "projects": {
+      "title": "Our Projects",
+      "intro": "Thoughtfully planned communities, delivered on time.",
+      "items": [
+        {
+          "slug": "aurelia-heights",
+          "name": "Aurelia Heights",
+          "status": "Ongoing",
+          "location": "Baner, Pune",
+          "type": "Apartments",
+          "configurations": [
+            "2 BHK",
+            "3 BHK"
+          ],
+          "priceFrom": "Rs 1.45 Cr*",
+          "possession": "Dec 2028",
+          "rera": "P52100000000",
+          "image": "assets/photos/heights.jpg"
+        },
+        {
+          "slug": "aurelia-meadows",
+          "name": "Aurelia Meadows",
+          "status": "Upcoming",
+          "location": "Hinjewadi, Pune",
+          "type": "Villas",
+          "configurations": [
+            "3 BHK Villa",
+            "4 BHK Villa"
+          ],
+          "priceFrom": "Rs 2.9 Cr*",
+          "possession": "Jun 2029",
+          "rera": "P52100000001",
+          "image": "assets/photos/meadows.jpg"
+        },
+        {
+          "slug": "aurelia-court",
+          "name": "Aurelia Court",
+          "status": "Completed",
+          "location": "Kothrud, Pune",
+          "type": "Apartments",
+          "configurations": [
+            "2 BHK",
+            "3 BHK"
+          ],
+          "priceFrom": "Sold out",
+          "possession": "Delivered 2023",
+          "rera": "P52100000002",
+          "image": "assets/photos/court.jpg"
+        }
+      ],
+      "filters": [
+        "All",
+        "Ongoing",
+        "Upcoming",
+        "Completed"
+      ]
+    },
+    "amenities": {
+      "title": "Life at Aurelia Heights",
+      "intro": "Over 30 amenities across 2.5 acres of landscaped podium and ground.",
+      "items": [
+        {
+          "icon": "pool",
+          "label": "Infinity Pool"
+        },
+        {
+          "icon": "gym",
+          "label": "Fully Equipped Gym"
+        },
+        {
+          "icon": "clubhouse",
+          "label": "20,000 sq. ft. Clubhouse"
+        },
+        {
+          "icon": "kids",
+          "label": "Kids' Play Zone"
+        },
+        {
+          "icon": "garden",
+          "label": "Landscaped Courtyards"
+        },
+        {
+          "icon": "jogging",
+          "label": "Jogging Track"
+        },
+        {
+          "icon": "coworking",
+          "label": "Co-working Lounge"
+        },
+        {
+          "icon": "ev",
+          "label": "EV Charging"
+        },
+        {
+          "icon": "security",
+          "label": "24x7 Security & CCTV"
+        }
+      ]
+    },
+    "floorPlans": {
+      "title": "Floor Plans",
+      "intro": "Choose a layout. Every plan is Vastu-considerate with cross ventilation.",
+      "plans": [
+        {
+          "type": "2 BHK",
+          "carpetArea": "745 sq. ft.",
+          "price": "Rs 1.45 Cr*",
+          "image": "/assets/plans/2bhk.png"
+        },
+        {
+          "type": "2.5 BHK",
+          "carpetArea": "910 sq. ft.",
+          "price": "Rs 1.78 Cr*",
+          "image": "/assets/plans/25bhk.png"
+        },
+        {
+          "type": "3 BHK",
+          "carpetArea": "1,120 sq. ft.",
+          "price": "Rs 2.15 Cr*",
+          "image": "/assets/plans/3bhk.png"
+        }
+      ],
+      "cta": {
+        "label": "Get Full Price Sheet",
+        "href": "#contact"
+      }
+    },
+    "location": {
+      "title": "Everything within reach",
+      "address": "Survey No. 00, Baner, Pune 411045",
+      "map": {
+        "lat": 18.559,
+        "lng": 73.7868,
+        "zoom": 14,
+        "provider": "google"
+      },
+      "nearby": [
+        {
+          "place": "Baner-Pashan Link Road",
+          "time": "3 min"
+        },
+        {
+          "place": "International School",
+          "time": "5 min"
+        },
+        {
+          "place": "Multi-speciality Hospital",
+          "time": "8 min"
+        },
+        {
+          "place": "IT Park, Hinjewadi",
+          "time": "20 min"
+        },
+        {
+          "place": "Pune Airport",
+          "time": "35 min"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Gallery",
+      "images": [
+        {
+          "src": "assets/photos/living-view.jpg",
+          "alt": "Living room with a framed garden view"
+        },
+        {
+          "src": "assets/photos/villa-sunset.jpg",
+          "alt": "Villa exterior at sunset"
+        },
+        {
+          "src": "assets/photos/infinity-pool.jpg",
+          "alt": "Infinity pool at dusk"
+        },
+        {
+          "src": "assets/photos/clubhouse.jpg",
+          "alt": "Clubhouse lounge"
+        },
+        {
+          "src": "assets/photos/living-double.jpg",
+          "alt": "Double-height living room"
+        },
+        {
+          "src": "assets/photos/courtyard.jpg",
+          "alt": "Landscaped entrance courtyard"
+        }
+      ],
+      "walkthrough": {
+        "label": "Watch the Walkthrough",
+        "video": "https://www.youtube.com/watch?v=PLACEHOLDER"
+      }
+    },
+    "about": {
+      "title": "Built on trust since 2009",
+      "body": "Aurelia Estates has delivered 12 projects across Pune with a simple promise: honest pricing, transparent timelines and homes that age well. Every project is RERA-registered and delivered on or before the committed date.",
+      "image": "assets/photos/pool-deck.jpg",
+      "values": [
+        {
+          "title": "Transparency",
+          "text": "Clear pricing, no hidden charges, RERA-first disclosures."
+        },
+        {
+          "title": "Timely delivery",
+          "text": "11 of 12 projects handed over on or before schedule."
+        },
+        {
+          "title": "Quality build",
+          "text": "Tier-1 materials and third-party quality audits at every stage."
+        }
+      ],
+      "trust": [
+        "RERA Registered",
+        "CREDAI Member",
+        "ISO 9001:2015",
+        "IGBC Pre-certified Green Homes"
+      ]
+    },
+    "testimonials": {
+      "title": "What our homeowners say",
+      "items": [
+        {
+          "name": "Rohan & Meera Kulkarni",
+          "project": "Aurelia Court",
+          "quote": "Possession came two months early and the finish matched the sample flat exactly.",
+          "rating": 5
+        },
+        {
+          "name": "Sanjay Deshmukh",
+          "project": "Aurelia Court",
+          "quote": "The team was upfront on every cost. No surprises at registration.",
+          "rating": 5
+        },
+        {
+          "name": "Priya Nair",
+          "project": "Aurelia Heights (booked)",
+          "quote": "The site visit and clear floor plans made the decision easy.",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is Aurelia Heights RERA registered?",
+          "a": "Yes. RERA registration number P52100000000, viewable on the MahaRERA website."
+        },
+        {
+          "q": "What is the payment plan?",
+          "a": "Construction-linked and flexible plans are available. Request the price sheet for details."
+        },
+        {
+          "q": "Do you offer home loan assistance?",
+          "a": "Yes, we are tied up with leading banks for pre-approved loans."
+        },
+        {
+          "q": "Can I schedule a weekend site visit?",
+          "a": "Yes. Book a slot below and our team will confirm within 2 hours."
+        },
+        {
+          "q": "When is possession?",
+          "a": "Committed possession is December 2028, with a RERA grace period as per law."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Book your site visit",
+      "subtitle": "Our team will confirm a slot within 2 hours.",
+      "form": {
+        "action": "/api/enquiry",
+        "method": "POST",
+        "fields": [
+          {
+            "name": "name",
+            "label": "Full name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "label": "Phone",
+            "type": "tel",
+            "required": true,
+            "pattern": "^[6-9][0-9]{9}$"
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "type": "email",
+            "required": false
+          },
+          {
+            "name": "interest",
+            "label": "Interested in",
+            "type": "select",
+            "options": [
+              "2 BHK",
+              "2.5 BHK",
+              "3 BHK",
+              "Villa"
+            ],
+            "required": true
+          },
+          {
+            "name": "visitDate",
+            "label": "Preferred visit date",
+            "type": "date",
+            "required": false
+          }
+        ],
+        "consent": "I agree to be contacted by Aurelia Estates via call, SMS or WhatsApp.",
+        "submitLabel": "Request Callback",
+        "successMessage": "Thank you. We will call you shortly."
+      },
+      "details": {
+        "salesOffice": "Aurelia Experience Centre, Baner Road, Pune 411045",
+        "phone": "+91 00000 00000",
+        "email": "sales@aurelia-estates.example",
+        "hours": "Mon-Sun, 10:00 - 19:00"
+      }
+    },
+    "footer": {
+      "about": "Aurelia Estates - premium residences in Pune since 2009.",
+      "links": [
+        {
+          "label": "Projects",
+          "href": "#projects"
+        },
+        {
+          "label": "Floor Plans",
+          "href": "#plans"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms",
+          "href": "/terms"
+        }
+      ],
+      "social": [
+        {
+          "platform": "instagram",
+          "href": "https://instagram.com/"
+        },
+        {
+          "platform": "facebook",
+          "href": "https://facebook.com/"
+        },
+        {
+          "platform": "youtube",
+          "href": "https://youtube.com/"
+        },
+        {
+          "platform": "linkedin",
+          "href": "https://linkedin.com/"
+        }
+      ],
+      "disclaimer": "*Prices are indicative and subject to change. Images are artistic impressions. RERA No. P52100000000 is available at maharera.mahaonline.gov.in. This is a sample site with fictional data.",
+      "copyright": "© 2026 Aurelia Estates. All rights reserved."
+    }
+  }
+}
